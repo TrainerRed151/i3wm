@@ -29,6 +29,10 @@ exec --no-startup-id xinput --set-prop 11 "Synaptics Two-Finger Scrolling" 1 1
 exec --no-startup-id feh --bg-fill ~/Pictures/forestview.png
 exec --no-startup-id xmodmap -e "keycode 124 = End"
 exec --no-startup-id xmodmap -e "keycode 133 = Home"
+exec --no-startup-id xbacklight -set 30
+
+#State College, PA
+exec --no-startup-id redshift -l 40.79:-77.86
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
